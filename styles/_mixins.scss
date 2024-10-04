@@ -1,0 +1,10 @@
+// mixin para botões
+@mixin button-style($background, $color) {
+    background-color: $background;
+    color: $color;
+    padding: 8px 0;
+    text-align: center;
+    border-radius: $button-border-radius;
+    text-decoration: none;
+  }
+  
